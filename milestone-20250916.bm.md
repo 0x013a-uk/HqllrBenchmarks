@@ -1,11 +1,8 @@
-----
-
 # Hǫllr Benchmark
-
 
 ## Number Of CPU Cores: 4
 
-### [MODE: msgpack CPU: 4] - RUN A (clean bloom + backend tmp)
+### [MODE: msgpack CPU: 4] - RUN A (clean bloom)
 🔍 Corpus: /literature, 
 ⚙️ Backend: msgpack, 👷 Workers: 4, 🔪 Splitter: Sentence, 🔪 N-Gram: 123 
 
@@ -17,7 +14,7 @@
 ✅ Ingestion complete, elapsed=0:02.90 user=6.37 sys=0.50 maxrss=45392KB CPU=237%
 ```
 
-### [MODE: msgpack CPU: 4] - RUN B (reuse bloom + data)
+### [MODE: msgpack CPU: 4] - RUN B (reuse bloom)
 🔍 Corpus: /literature, 
 ⚙️ Backend: msgpack, 👷 Workers: 4, 🔪 Splitter: Sentence, 🔪 N-Gram: 123
 ``` 
@@ -27,5 +24,3 @@
 👷 W3: bootstrapped from cached worker bloom, 20 files, 105184 atoms, 85762 atoms/s, dedup: hit=105184, miss=0
 ✅ Ingestion complete, elapsed=0:01.98 user=3.96 sys=0.34 maxrss=32508KB CPU=216%
 ```
-
----
