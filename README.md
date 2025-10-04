@@ -46,8 +46,4 @@ Performance is not just speed — it’s sovereignty:
 - Efficient enough to scale to enterprise clusters.  
 - Transparent enough to verify.  
 
----
 
-## License
-- Benchmark results are published openly.  
-- Code and internals remain private unless otherwise noted.
